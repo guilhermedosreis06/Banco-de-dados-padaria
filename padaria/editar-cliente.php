@@ -18,6 +18,7 @@
         <label>CPF
             <input type="text" name="cpf_cliente" class="form-control" value="<?php print $row->cpf_cliente; ?>">
         </label>
+	</div?
     <div class="mb-3">
         <label>E-mail
             <input type="email" name="email_cliente" class="form-control" value="<?php print $row->email_cliente; ?>">
@@ -31,4 +32,5 @@
     <div class="mb-3">
             <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
+
 </form>
