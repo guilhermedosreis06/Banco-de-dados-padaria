@@ -1,30 +1,66 @@
-# 📚 Sistema CRUD em PHP com MySQL
+# 🥖 Sistema de Gestão de Padaria — CRUD em PHP com MySQL
 
-Aplicação web desenvolvida em **PHP e HTML**, com integração ao **MySQL**, implementando um sistema CRUD (Create, Read, Update, Delete) para gerenciamento de dados.
+Sistema web desenvolvido em **PHP e HTML**, com **MySQL**, para gerenciamento completo de uma padaria.  
+A aplicação implementa operações de **CRUD** e relacionamento entre entidades do negócio.
+
+Projeto desenvolvido com foco em **lógica de programação**, **backend** e **banco de dados relacional**.
+
+---
 
 ## 🚀 Funcionalidades
-- Cadastro de registros
-- Listagem de registros
-- Consulta individual
-- Atualização de dados
-- Exclusão de registros
-- Integração com banco de dados MySQL
+
+- Gerenciamento de Clientes
+- Gerenciamento de Funcionários
+- Gerenciamento de Fornecedores
+- Gerenciamento de Produtos
+- Registro de Vendas
+- Associação de produtos às vendas (N:N)
+- Operações completas de CRUD:
+  - Criar
+  - Listar
+  - Editar
+  - Excluir
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
+
 - PHP
 - HTML
 - MySQL
 - SQL
-- Servidor Apache (XAMPP / WAMP / Laragon)
+- Bootstrap
+- Servidor Apache (XAMPP, WAMP ou Laragon)
+
+---
 
 ## 🧠 Conceitos Aplicados
-- CRUD
-- Lógica de programação
-- Programação backend
-- Conexão com banco de dados
-- Manipulação de formulários HTML
-- Validação básica de dados
+
+- CRUD (Create, Read, Update, Delete)
+- Programação Backend
+- Modelagem de banco de dados relacional
+- Chaves primárias e estrangeiras
+- Relacionamento N:N (tabela `item_venda`)
+- Integração PHP + MySQL (MySQLi)
 - Estruturação de aplicações web
+- Manipulação de formulários HTML
+
+---
+
+## 🗄️ Estrutura do Banco de Dados
+
+O banco de dados é composto pelas seguintes tabelas:
+
+- cliente
+- funcionario
+- fornecedor
+- produto
+- venda
+- item_venda (tabela de junção entre venda e produto)
+
+O script SQL completo está disponível no projeto.
+
+---
 
 ## ▶️ Como Executar o Projeto
 
