@@ -47,7 +47,6 @@ CREATE TABLE IF NOT EXISTS `padaria`.`produto` (
   `nome_produto` VARCHAR(100) NOT NULL,
   `tipo_produto` VARCHAR(45) NULL, 
   `preco_venda` DECIMAL(10,2) NOT NULL,
-  `estoque_atual` INT NOT NULL DEFAULT 0,
   `fornecedor_id_fornecedor` INT NOT NULL,
   PRIMARY KEY (`id_produto`), 
   INDEX `fk_produto_fornecedor_idx` (`fornecedor_id_fornecedor` ASC),
